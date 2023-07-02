@@ -30,7 +30,8 @@
     "yup": "^1.2.0"
   },
   "scripts": {
-    "build": "vite build",
+    "start": "",
+    "build": "babel src -d lib",
     "dev": "vite",
     "preview": "vite preview"
   },
